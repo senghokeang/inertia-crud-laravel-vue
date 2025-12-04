@@ -52,6 +52,9 @@ php artisan key:generate
 # Run database migrations
 php artisan migrate
 
+# Create storage link for uploaded images
+php artisan storage:link
+
 # Start development server
 php artisan serve
 
